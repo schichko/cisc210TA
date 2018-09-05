@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int GetOneNumber(int x);
+
+int main(){
+  int x = 0;
+  int average = 0;
+  printf("Hello World\n");
+  printf("Please enter the number of entries:");
+  scanf("%d",&x);
+  average = GetOneNumber(x);
+  printf(%f,average);
+  return 0;
+}
+
+int GetOneNumber(int x){
+  int i;
+  int total = 0;
+  int temptotal;
+  for(i = 0; i<x;i++){
+    printf("Enter integer#%d:",i+1); //So doing print statements with letters and numbers we want to do it with the whole string and put %d whenever we want an integer and then it refers to them in order after the statement
+    scanf("%d",&temptotal);
+    total+=temptotal;
+  }
+  return total/x;
+  
+}

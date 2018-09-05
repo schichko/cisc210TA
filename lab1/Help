@@ -1,0 +1,12 @@
+ 
+Emac Notes - 
+Ctrl Space - Starts highlighting a region
+Ctrl W - Copy a region
+Ctrl Y - Paste a region
+
+Example: 
+*ip - ip is a variable name, ip is a pointer to type int (Holds the address of an int)
+
+An & is a reference opertaor : It returns a pointer or address
+
+* is also called the deference operator and returns the contents at a particular address
